@@ -1,8 +1,8 @@
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { Form, ErrorMessage, Field } from '../phonebook/phonebook.styled';
-import { addContact } from 'components/redux/operations';
-import { selectContacts } from 'components/redux/selectiors';
+import { addContact } from '../../redux/operations';
+import { selectContacts } from '../../redux/selectiors';
 import { useDispatch, useSelector } from 'react-redux';
 import { Button } from '../GlobalStyled';
 
